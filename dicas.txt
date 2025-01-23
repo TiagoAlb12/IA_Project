@@ -1,0 +1,21 @@
+Dica01: Se tamanho for pequeno (2/3), evitar superfoood (evitar morte precoce)
+
+Dica02: Mapear a área -> Algoritmo pode evitar obstáculos ou procurar superfoods em fases posteriores.
+
+Dica03: Dividir o mapa em quadrantes ou corredores. codigo aleatorio (generator food) usa distribuição normal para gerar posições para a commida
+
+Dica04: Verificar algoritmos de funcionamento de aspiradores inteligentes.
+
+Dica05: Tempo é ESSENCIAL. Usar o timestamp
+
+Dica06: Testar o algoritmo em uma VM (testar performance com número de cores diferentes e RAM)
+
+
+
+-----------------------------------------------------
+
+1. Garantir que não se suicida    ✔
+2. Explorar Alimento: A cobra deve procurar ativamente por alimentos, usando algoritmos de busca para encontrar o caminho mais eficiente. 
+3. Evitar Obstáculos: A cobra precisa evitar não apenas o próprio corpo, mas também obstáculos, como paredes e outras cobras (em cenários multijogador).     ✔
+4. Manter-se em Movimento de Forma Segura: Quando não há alimento visível, a cobra deve manter-se em movimento seguro, evitando se encurralar.
+5. Gerir a Visão Limitada: A cobra tem uma visão limitada no jogo. Precisamos otimizar a tomada de decisões com base nas informações parciais que ela possui.
